@@ -1,7 +1,9 @@
 import './style.css';
 import { FightingGame } from './game.js';
 import { setupArenaConfigTools } from './configTools.js';
+import { inject } from '@vercel/analytics';
 
+inject();
 setupArenaConfigTools();
 
 const game = new FightingGame(document.body);
