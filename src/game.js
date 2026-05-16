@@ -2,7 +2,7 @@ import * as THREE from 'three';
 import { TransformControls } from 'three/examples/jsm/controls/TransformControls.js';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import { AssetLoader } from './assetLoader.js';
-import { setupArenaConfigTools, setupCameraConfigTools, applyCameraConfig, setupAttackTimingTools } from './configtools.js';
+import { setupArenaConfigTools, setupCameraConfigTools, applyCameraConfig, setupAttackTimingTools } from './configTools.js';
 import { Fighter } from './fighter.js';
 import { KeyboardInput, P1_BINDINGS, P2_BINDINGS } from './input.js';
 import { AIInput } from './aiInput.js';
